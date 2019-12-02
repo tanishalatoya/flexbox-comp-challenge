@@ -1,0 +1,58 @@
+html {
+  background: #78e8f9;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  width: 43vw;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  margin: auto;
+  margin-top: 3%;
+  width: 90%;
+}
+
+.section-div-globe-icon,
+.section-div-grouped-icons {
+  width: 45%;
+}
+
+.section-div-globe-icon {
+  background: 	#e3fffe;
+  position: relative;
+}
+
+.section-div-globe-icon img {
+  height: 60%;
+  position: relative;
+    left: 18%;
+    top: 18%;
+  width: auto;
+}
+
+.section-div-grouped-icons {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-div-grouped-icons div {
+  background: #e3fffe;
+  height: 47%;
+  position: relative;
+  width: 45%;
+}
+
+.section-div-grouped-icons img {
+  height: 35%;
+  position: relative;
+    left: 32%;
+    top: 32%;
+  width: auto;
+}
